@@ -1,0 +1,70 @@
+/*body {*/
+/*    background-color: #fcb900;*/
+/*}*/
+
+header {
+    margin-bottom: 12px;
+}
+
+#header-body {
+    background-color: #FBBC05;
+    height: 60px;
+}
+
+@media (min-width: 768px) {
+    .container > .navbar-header {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+.navbar-brand {
+    margin-left: -15px;
+}
+
+@media(min-width: 1200px) {
+    .container {
+        width: 450px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 450px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 450px;
+    }
+}
+
+.form-container {
+    margin-top: 3%;
+}
+
+a {
+    color: #2d6a9f;
+}
+
+#formSection > .panel-heading {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.panel-body {
+    padding: 15px;
+}
+
+.row {
+    margin: 15px;
+}
